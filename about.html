@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <!-- navigation -->
+     <nav>
+        <img src="images/logo.png" alt="education logo">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-xmark"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/ham.webp" alt="hamburger menu icon">
+        </div>
+     </nav>
+
+
+     <!-- home -->
+      <section id="about-home">
+      <h2>About Education</h2>
+    </section>
+       
+    <!-- about-info -->
+     <section id="about-conatiner">
+        <div class="about-image">
+        <img class="about-img" src="images/img a1.png" alt="about image">
+        </div>
+
+        <div class="about-text">
+          <h2>Welcome to Education,Enhance your skills with best online courses</h2>
+          <p>you can start and finish one of these popular courses in under a day -for free! check out the list below,take the course for free</p>
+          <div class="about-fea">
+            <img src="images/course about.png" alt="courses">
+            <div class="fea-text">
+                <h5>400 courses</h5>
+                <p>you can atart and finish one of these popular courses under a day for free!</p>
+            </div>
+          </div>
+
+          <div class="about-fea">
+            <img src="images/about life.png" alt="lifetime access courses">
+            <div class="fea-text">
+                <h5>Lifetime Access</h5>
+                <p>you can atart and finish one of these popular courses under a day for free!</p>
+            </div>
+          </div>
+
+        </div>
+     </section>
+
+    <!-- feature -->
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>Replanish man have thing gathering lights yielding shall you</p>
+
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Scholarship Facilities</h3>
+                <p>One make creepth, man bearing theira firmament won't great heaven</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Online Course</h3>
+                <p>One make creepth, man bearing theira firmament won't great heaven</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa-solid fa-award"></i>
+                <h3>Global Certications</h3>
+                <p>One make creepth, man bearing theira firmament won't great heaven</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Replanish man have thing gathering lights yielding shall you</p>
+        
+        <div class="trust-img">
+            <img src="images/uni icon 1.png" alt="trusted by">
+            <img src="images/uni icon 2.jpg" alt="trusted by">
+            <img src="images/uni icon 3.jpg" alt="trusted by">
+            <img src="images/uni icon 4.png" alt="trusted by">
+            <img src="images/uni icon 5.jpg" alt="trusted by">
+            <img src="images/uni icon 7.jpg" alt="trusted by">
+        </div>
+
+    </section>
+
+        <!-- footer -->
+       <footer>
+        <div class="footer-col">
+          <h3>Top Products</h3>
+          <li>Manage Reputation</li>
+          <li>Powner Tools</li>
+          <li>Managed Website</li>
+          <li>Marketing Space</li>
+        </div>
+
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <li>Jobs</li>
+          <li>Brand Assests</li>
+          <li>Investor Relations</li>
+          <li>Term of Services</li>
+        </div>
+
+        <div class="footer-col">
+          <h3>Featuress</h3>
+          <li>Manage Reputation</li>
+          <li>Powner Tools</li>
+          <li>Managed Website</li>
+          <li>Marketing Space</li>
+        </div>
+
+        <div class="footer-col">
+          <h3>Resources</h3>
+          <li>Guides</li>
+          <li>Research</li>
+          <li>Experts</li>
+          <li>Marketing Services</li>
+        </div>
+
+
+        <div class="footer-col footer-news">
+           <h3>Newsletter</h3>
+           <p>You can trust us we only send promo offers</p>
+           <div class="subscribe">
+            <input type="text" placeholder="your email address">
+            <a href="#" class="yellow">SUBSCRIBE</a>
+           </div>
+        </div>
+
+        <div class="copyright">
+          <p>Copyright ©2021 All rights reserved | This template is made by Education </p>
+          <div class="pro-links">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+       </footer>
+
+
+       <script>
+        // hamburger
+        const closemenu = document.getElementById("menu-close");
+         const hamburger = document.getElementById("menu-btn");
+         const navmenu = document.querySelector("nav .navigation ul");
+         
+           hamburger.addEventListener("click",()=>{
+           navmenu.classList.add("active")
+          });
+
+           closemenu.addEventListener("click",()=>{
+            navmenu.classList.remove("active")
+        })
+
+        
+
+        
+
+        
+       </script>
+</body>
+</html>
